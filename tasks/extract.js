@@ -1,7 +1,7 @@
 var Extractor = require('gettext-tools').Extractor;
 
 module.exports = function (grunt) {
-    grunt.registerMultiTask('nggettext_extract', 'Extract strings from views', function () {
+    grunt.registerMultiTask('gettext_extract', 'Extract gettext strings from source code notations', function () {
         var options = this.options();
 
         if (options.extensions) {
