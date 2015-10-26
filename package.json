@@ -1,7 +1,7 @@
 {
   "name": "grunt-gettext-extract",
   "description": "Grunt tasks for extracting gettext strings.",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "homepage": "http://gettext.rocketeer.be/",
   "author": {
     "name": "Ruben Vermeersch",
