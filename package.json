@@ -1,24 +1,28 @@
 {
-  "name": "grunt-angular-gettext",
-  "description": "Tasks for extracting/compiling angular-gettext strings.",
+  "name": "grunt-gettext-extract",
+  "description": "Grunt tasks for extracting PO strings.",
   "version": "2.1.3",
-  "homepage": "http://angular-gettext.rocketeer.be/",
+  "homepage": "http://gettext.rocketeer.be/",
   "author": {
     "name": "Ruben Vermeersch",
     "email": "ruben@rocketeer.be",
     "url": "http://rocketeer.be"
   },
+  "contributors": [{
+    "name": "Garry Yao",
+    "email": "yaojun85@gmail.com"
+  }],
   "repository": {
     "type": "git",
-    "url": "git://github.com/rubenv/grunt-angular-gettext.git"
+    "url": "git://github.com/englishtown/grunt-gettext-extract.git"
   },
   "bugs": {
-    "url": "https://github.com/rubenv/grunt-angular-gettext/issues"
+    "url": "https://github.com/englishtown/grunt-gettext-extract/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/rubenv/grunt-angular-gettext/blob/master/LICENSE"
+      "url": "https://github.com/englishtown/grunt-gettext-extract/blob/master/LICENSE"
     }
   ],
   "main": "Gruntfile.js",
@@ -42,10 +46,11 @@
   },
   "keywords": [
     "gruntplugin",
-    "angular",
-    "gettext"
+    "gettext",
+    "l10n",
+    "i18n"
   ],
   "dependencies": {
-    "angular-gettext-tools": "~2.1.3"
+    "gettext-tools": "~2.1.3"
   }
 }

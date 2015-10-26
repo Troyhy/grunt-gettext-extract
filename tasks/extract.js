@@ -1,4 +1,4 @@
-var Extractor = require('angular-gettext-tools').Extractor;
+var Extractor = require('gettext-tools').Extractor;
 
 module.exports = function (grunt) {
     grunt.registerMultiTask('nggettext_extract', 'Extract strings from views', function () {
