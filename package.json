@@ -53,6 +53,6 @@
     "i18n"
   ],
   "dependencies": {
-    "gettext-tools": "~2.1.3"
+    "gettext-tools": ">2.1.3"
   }
 }
