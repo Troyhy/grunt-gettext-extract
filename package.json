@@ -35,7 +35,7 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": ">0.4.1",
     "grunt-bump": "0.0.16",
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-jshint": "~0.7.2",
@@ -44,7 +44,7 @@
     "pofile": "~0.2.4"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": ">0.4.1"
   },
   "keywords": [
     "gruntplugin",
